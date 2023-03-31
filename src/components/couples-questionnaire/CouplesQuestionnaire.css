@@ -1,0 +1,64 @@
+/* CouplesQuestionnaire.css */
+
+.questionnaire {
+    background-color: #9D5CEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .questionnaire-title {
+    font-family: 'Italianno', cursive;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .questionnaire-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gender-select {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .gender-select label {
+    margin: 0 10px;
+  }
+  
+  .male-icon,
+  .female-icon {
+    /* Add your gender icon styles here */
+  }
+  
+  .questionnaire-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 40px 40px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #404040;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #333;
+  }
